@@ -6,6 +6,9 @@ import { CreateUserComponent } from './create-user.component';
   imports: [
     CommonModule
   ],
-  declarations: [CreateUserComponent]
+  declarations: [CreateUserComponent],
+  exports: [
+    CreateUserComponent
+  ]
 })
 export class CreateUserModule { }

@@ -6,6 +6,9 @@ import { DetailUserComponent } from './detail-user.component';
   imports: [
     CommonModule
   ],
-  declarations: [DetailUserComponent]
+  declarations: [DetailUserComponent],
+  exports: [
+    DetailUserComponent
+  ]
 })
 export class DetailUserModule { }
