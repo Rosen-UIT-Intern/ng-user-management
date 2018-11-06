@@ -1,9 +1,15 @@
 div {
-    background-color: #333;
-    margin: 0;
-    text-align: center;
-    color: white;
-    padding: 14px 16px;
-    display: block;
-    text-decoration: none;
+  background-color: #333;
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+}
+
+span {
+  text-align: center;
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
 }
