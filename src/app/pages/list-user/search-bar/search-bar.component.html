@@ -1,65 +1,67 @@
-<form>
-  <div class="input-group no-border">
-    <input class="form-control search-input" placeholder="Search..." type="text" value="">
+<div class="row">
+  <div class="col-2 col-sm-offset-5 col-md-offset-5 col-lg-offset-5">
+    <div class="input-group no-border">
+      <input class="form-control search-input" placeholder="Search..." type="text" value="">
 
-    <div class="search-container">
-      <div class="ti-search search-icon"></div>
-    </div>
+      <div class="search-container">
+        <div class="ti-search search-icon"></div>
+      </div>
 
 
-    <div class="fixed-plugin filter-container flip-horizontal">
-      <div id="dropdown" class="dropdown show-dropdown">
-        <div data-toggle="dropdown">
-          <div class="ti-filter filter-icon"> </div>
+      <div class="fixed-plugin filter-container flip-horizontal">
+        <div id="dropdown" class="dropdown show-dropdown">
+          <div data-toggle="dropdown">
+            <div class="ti-filter filter-icon"> </div>
+          </div>
+          <ul id="dropdown-menu" class="dropdown-menu menu-container">
+            <li class="header-title flip-horizontal">Select Organiztion</li>
+            <li class="adjustments-line text-center flip-horizontal">
+              <label class="radio-inline">
+                <input type="radio" name="radioOrganization" id="radioOrganization1" value="option1"> 1
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioOrganization" id="radioOrganization2" value="option2"> 2
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioOrganization" id="radioOrganization3" value="option3"> 3
+              </label>
+            </li>
+
+            <li class="header-title flip-horizontal">Select Group</li>
+            <li class="adjustments-line text-center flip-horizontal">
+              <!-- <a href="javascript:void(0)" class="switch-trigger active-color">
+                    <span class="badge filter badge-primary" data-color="primary"></span>
+                    <span class="badge filter badge-info" data-color="info"></span>
+                    <span class="badge filter badge-success" data-color="success"></span>
+                    <span class="badge filter badge-warning" data-color="warning"></span>
+                    <span class="badge filter badge-danger active" data-color="danger"></span>
+                  </a> -->
+              <label class="radio-inline">
+                <input type="radio" name="radioGroup" id="radioGroup1" value="option1"> 1
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioGroup" id="radioGroup2" value="option2"> 2
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioGroup" id="radioGroup3" value="option3"> 3
+              </label>
+            </li>
+
+            <li class="header-title flip-horizontal">Select Role</li>
+            <li class="adjustments-line text-center flip-horizontal">
+              <label class="radio-inline">
+                <input type="radio" name="radioRole" id="radioRole1" value="option1"> 1
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioRole" id="radioRole2" value="option2"> 2
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="radioRole" id="radioRole3" value="option3"> 3
+              </label>
+            </li>
+          </ul>
         </div>
-        <ul id="dropdown-menu" class="dropdown-menu menu-container">
-          <li class="header-title flip-horizontal">Select Organiztion</li>
-          <li class="adjustments-line text-center flip-horizontal">
-            <label class="radio-inline">
-              <input type="radio" name="radioOrganization" id="radioOrganization1" value="option1"> 1
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioOrganization" id="radioOrganization2" value="option2"> 2
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioOrganization" id="radioOrganization3" value="option3"> 3
-            </label>
-          </li>
-
-          <li class="header-title flip-horizontal">Select Group</li>
-          <li class="adjustments-line text-center flip-horizontal">
-            <!-- <a href="javascript:void(0)" class="switch-trigger active-color">
-              <span class="badge filter badge-primary" data-color="primary"></span>
-              <span class="badge filter badge-info" data-color="info"></span>
-              <span class="badge filter badge-success" data-color="success"></span>
-              <span class="badge filter badge-warning" data-color="warning"></span>
-              <span class="badge filter badge-danger active" data-color="danger"></span>
-            </a> -->
-            <label class="radio-inline">
-              <input type="radio" name="radioGroup" id="radioGroup1" value="option1"> 1
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioGroup" id="radioGroup2" value="option2"> 2
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioGroup" id="radioGroup3" value="option3"> 3
-            </label>
-          </li>
-
-          <li class="header-title flip-horizontal">Select Role</li>
-          <li class="adjustments-line text-center flip-horizontal">
-            <label class="radio-inline">
-              <input type="radio" name="radioRole" id="radioRole1" value="option1"> 1
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioRole" id="radioRole2" value="option2"> 2
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="radioRole" id="radioRole3" value="option3"> 3
-            </label>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
-</form>
+</div>
