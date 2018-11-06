@@ -1,3 +1,7 @@
+.searchbar-container {
+  z-index: 0;
+}
+
 .search-input {
   background-color: black; 
   padding-right: 10px; 
@@ -51,7 +55,6 @@
   opacity: 1;
   transform: scale(1.2);
 }
-
 
 .menu-container {
   margin-top: -16px;
